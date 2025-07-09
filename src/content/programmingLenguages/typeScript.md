@@ -1,6 +1,6 @@
 ---
     title: TypeScript
-    icon: 1a
-    learned: Autodidacto / Universidad ORT
+    icon: simple-icons:typescript
+    learned: Autodidacto  Universidad ORT
 ---
 

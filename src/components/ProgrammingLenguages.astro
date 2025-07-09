@@ -1,24 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
+import HeroSpacing from './HeroSpacing.astro';
+import HeroContainer from './HeroContainer.astro';
 
-// const iconHandler: Record<string> = {
-
-// };
-
-const programmingLanguages = await getCollection('programmingLenguages');
 ---
-<section class="flex justify-center">
-  <div class="bg-slate-900 w-4/5 p-3">
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-      <!-- {programmingLanguages.map(entry => {
-         const Icon = iconHandler[entry.data.icon];
-        return (
-          <div class="flex items-center gap-2 bg-slate-800 p-3 rounded">
-            {Icon ? <Icon/> : <span>❌</span>}
-            <span class="text-white">{entry.data.title}</span>
-          </div>
-        );
-      })} -->
-    </div>
-  </div>
-</section>
+<div class="h-screen w-full flex justify-center items-center">
+  <section class="flex flex-col items-center justify-center">
+    <h2 class="mb-3 text-3xl text-slate-900 font-black text-center">Lenguajes Aprendidos</h2>
+    <HeroContainer collectionName="programmingLenguages"/>
+  </section>
+</div>
+<HeroSpacing/>
+

@@ -1,6 +1,6 @@
 ---
     title: JavaScript
-    icon: 1a
-    learned: Autodidacto / Universidad ORT
+    icon: simple-icons:javascript
+    learned: Autodidacto Universidad ORT
 ---
 

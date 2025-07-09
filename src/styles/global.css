@@ -5,7 +5,7 @@ body {
 }
 
 @keyframes fadeOut {
-  0% {
+  50% {
     opacity: 1;
     transform: translateY(0);
   }
@@ -13,6 +13,12 @@ body {
     opacity: 0;
     transform: translateY(-50px);
   }
+}
+
+.scroll-fade {
+  animation: fadeOut linear;
+  animation-timeline: view();
+  animation-range: entry 50% exit 100%;
 }
 
 

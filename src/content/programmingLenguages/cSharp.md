@@ -1,6 +1,6 @@
 ---
     title: C#
-    icon: 1a
+    icon: simple-icons:csharp
     learned: Universidad ORT
 ---
 

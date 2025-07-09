@@ -1,6 +1,6 @@
 ---
     title: Python
-    icon: 1a
+    icon: simple-icons:python
     learned: Autodidacto
 ---
 

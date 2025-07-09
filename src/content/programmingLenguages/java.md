@@ -1,6 +1,6 @@
 ---
     title: Java
-    icon: 1a
+    icon: ri:java-fill
     learned: Universidad ORT
 ---
 
