@@ -52,6 +52,34 @@ const tools = defineCollection({
     })
 })
 
+const softSkills = defineCollection({
+    type: 'content',
+    schema: z.object({
+        title: z.string(),
+        icon: z.string(),
+        learned: z.string(),
+    })
+})
+
+const links = defineCollection({
+    type: 'content',
+    schema: z.object({
+        name: z.string(),
+        link: z.string(),
+        id: z.number(),
+    })
+})
+
+const projects = defineCollection({
+    type: 'content',
+    schema: z.object({
+          alt: z.string(),
+            src: z.string(),
+            link: z.string(),
+            status: z.boolean(),
+    })
+})
+
 export const collections = {
     presentation: presentation,
     programmingLenguages: programmingLenguages,
@@ -59,4 +87,6 @@ export const collections = {
     backend: backend,
     dataBases: dataBases,
     tools: tools,
+    softSkills: softSkills,
+    links: links,
 }

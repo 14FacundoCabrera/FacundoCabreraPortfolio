@@ -2,4 +2,4 @@
     title: Facundo Cabrera.
 ---
 
-Estudiante avanzado en Análista en Tecnologías de la Información en la Universidad ORT. Me especializo en **Desarrollo Web** y me encuentro explorando de forma **Autodidacta** robótica basada en **Arduino** y sus variantes compatibles. Tengo una fuerte orientación al **aprendizaje continuo, la resolución de problemas y el trabajo colaborativo.** Gran interés en tecnologías emergentes, siempre buscando superarme.
+Estudiante avanzado en Análista en Tecnologías de la Información en la Universidad ORT y recibido como Analista Programador. Me especializo en el **Desarrollo Web**, especialmente con **React y Node.js**, me encuentro explorando de forma **Autodidacta IA** con **TensorFlow**. Tengo una fuerte orientación al **aprendizaje continuo, la resolución de problemas y el trabajo colaborativo.** Poseo gran interés en tecnologías emergentes y populares, siempre buscando superarme.
